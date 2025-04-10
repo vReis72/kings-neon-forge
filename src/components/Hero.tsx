@@ -8,7 +8,18 @@ const Hero = () => {
     <section id="home" className="min-h-screen flex items-center pt-20 pb-16">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-          <div className="space-y-8 animate-fade-in">
+          <div className="flex justify-center lg:justify-start animate-fade-in order-2 lg:order-1">
+            {/* Robot illustration without any frame */}
+            <div className="w-72 h-72 md:w-96 md:h-96 flex items-center justify-center">
+              <img 
+                src="/lovable-uploads/ed8ec996-0f34-4030-8fea-323b31668cf5.png" 
+                alt="K1nGs Robot" 
+                className="w-full h-full object-contain animate-glow"
+              />
+            </div>
+          </div>
+          
+          <div className="space-y-8 animate-fade-in order-1 lg:order-2">
             <div>
               <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight">
                 Transformamos dados em <span className="gradient-text">decisões</span>. 
@@ -35,20 +46,6 @@ const Hero = () => {
               >
                 Fale conosco
               </Button>
-            </div>
-          </div>
-          
-          <div className="flex justify-center lg:justify-end animate-fade-in-right">
-            <div className="relative">
-              <div className="absolute inset-0 bg-kings-teal/20 rounded-full blur-3xl animate-pulse opacity-30"></div>
-              {/* Robot illustration */}
-              <div className="relative w-72 h-72 md:w-96 md:h-96 flex items-center justify-center">
-                <img 
-                  src="/lovable-uploads/ed8ec996-0f34-4030-8fea-323b31668cf5.png" 
-                  alt="K1nGs Robot" 
-                  className="w-full h-full object-contain animate-glow"
-                />
-              </div>
             </div>
           </div>
         </div>
