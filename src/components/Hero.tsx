@@ -14,7 +14,7 @@ const Hero = () => {
               <img 
                 src="/lovable-uploads/ed8ec996-0f34-4030-8fea-323b31668cf5.png" 
                 alt="K1nGs Robot" 
-                className="w-full h-full object-contain animate-glow"
+                className="w-full h-full object-contain"
               />
             </div>
           </div>
