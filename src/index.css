@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -51,10 +51,11 @@
   body {
     @apply bg-kings-dark text-kings-white;
     font-feature-settings: "rlig" 1, "calt" 1;
+    font-family: 'Poppins', sans-serif;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-spaceGrotesk font-bold;
+    @apply font-montserrat font-bold;
   }
 }
 

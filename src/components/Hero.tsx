@@ -15,7 +15,7 @@ const Hero = () => {
                 <br />
                 <span className="gold-text">Inovação</span> em cada linha de código.
               </h1>
-              <p className="text-xl text-gray-300 max-w-xl">
+              <p className="text-xl text-gray-300 max-w-xl font-light">
                 Desenvolvemos soluções avançadas em Web e Inteligência Artificial para impulsionar o futuro do seu negócio.
               </p>
             </div>
@@ -41,11 +41,14 @@ const Hero = () => {
           <div className="flex justify-center lg:justify-end animate-fade-in-right">
             <div className="relative">
               <div className="absolute inset-0 bg-kings-teal/20 rounded-full blur-3xl animate-pulse opacity-30"></div>
-              {/* Robot illustration placeholder */}
-              <div className="relative w-64 h-64 md:w-80 md:h-80 bg-gradient-to-br from-kings-teal/30 to-transparent rounded-full flex items-center justify-center border border-kings-teal/30 animate-glow">
-                <div className="text-7xl md:text-8xl font-spaceGrotesk font-bold text-kings-white opacity-90">K1</div>
+              {/* Robot illustration */}
+              <div className="relative w-72 h-72 md:w-96 md:h-96 flex items-center justify-center">
+                <img 
+                  src="/lovable-uploads/ed8ec996-0f34-4030-8fea-323b31668cf5.png" 
+                  alt="K1nGs Robot" 
+                  className="w-full h-full object-contain animate-glow"
+                />
               </div>
-              <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 text-2xl gold-text font-spaceGrotesk">AI</div>
             </div>
           </div>
         </div>

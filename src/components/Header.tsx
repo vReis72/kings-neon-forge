@@ -31,21 +31,21 @@ const Header = () => {
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         <div className="flex items-center">
           <a href="#" className="flex items-center">
-            <span className="text-2xl font-bold font-spaceGrotesk mr-2">
+            <span className="text-2xl font-bold font-montserrat tracking-tight mr-2">
               <span className="text-kings-teal">K1</span>
               <span className="text-kings-gold">n</span>
               <span className="text-kings-teal">Gs</span>
             </span>
-            <span className="hidden md:inline text-sm opacity-80">Data Mining & Artificial Intelligence</span>
+            <span className="hidden md:inline text-sm opacity-80 font-light tracking-wide">Data Mining & Artificial Intelligence</span>
           </a>
         </div>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="#home" className="hover:text-kings-teal transition-colors">Início</a>
-          <a href="#products" className="hover:text-kings-teal transition-colors">Produtos</a>
-          <a href="#about" className="hover:text-kings-teal transition-colors">Sobre</a>
-          <a href="#contact" className="hover:text-kings-teal transition-colors">Contato</a>
+          <a href="#home" className="hover:text-kings-teal transition-colors font-light tracking-wide">Início</a>
+          <a href="#products" className="hover:text-kings-teal transition-colors font-light tracking-wide">Produtos</a>
+          <a href="#about" className="hover:text-kings-teal transition-colors font-light tracking-wide">Sobre</a>
+          <a href="#contact" className="hover:text-kings-teal transition-colors font-light tracking-wide">Contato</a>
         </nav>
 
         {/* Mobile Menu Toggle */}
@@ -65,28 +65,28 @@ const Header = () => {
           <nav className="container mx-auto py-4 px-4 flex flex-col space-y-4">
             <a 
               href="#home" 
-              className="py-2 px-4 hover:bg-kings-teal/20 rounded-md transition-colors"
+              className="py-2 px-4 hover:bg-kings-teal/20 rounded-md transition-colors font-light"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Início
             </a>
             <a 
               href="#products" 
-              className="py-2 px-4 hover:bg-kings-teal/20 rounded-md transition-colors"
+              className="py-2 px-4 hover:bg-kings-teal/20 rounded-md transition-colors font-light"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Produtos
             </a>
             <a 
               href="#about" 
-              className="py-2 px-4 hover:bg-kings-teal/20 rounded-md transition-colors"
+              className="py-2 px-4 hover:bg-kings-teal/20 rounded-md transition-colors font-light"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Sobre
             </a>
             <a 
               href="#contact" 
-              className="py-2 px-4 hover:bg-kings-teal/20 rounded-md transition-colors"
+              className="py-2 px-4 hover:bg-kings-teal/20 rounded-md transition-colors font-light"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Contato
