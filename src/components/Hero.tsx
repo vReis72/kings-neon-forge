@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center pt-20 pb-16">
+    <section id="home" className="py-20 flex items-center">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex justify-center">
           <div className="space-y-8 animate-fade-in max-w-3xl mx-auto text-center">
