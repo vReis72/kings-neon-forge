@@ -8,9 +8,9 @@ const About = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Sobre a <span className="text-kings-teal">K1</span>
-            <span className="text-kings-gold">n</span>
-            <span className="text-kings-teal">Gs</span>
+            Sobre a <span className="text-kings-teal">K</span>
+            <span className="text-kings-gold">1</span>
+            <span className="text-kings-teal">nGs</span>
           </h2>
           
           <p className="text-xl leading-relaxed">

@@ -32,9 +32,9 @@ const Header = () => {
         <div className="flex items-center">
           <a href="#" className="flex items-center">
             <span className="text-2xl font-bold font-montserrat tracking-tight mr-2">
-              <span className="text-kings-teal">K1</span>
-              <span className="text-kings-gold">n</span>
-              <span className="text-kings-teal">Gs</span>
+              <span className="text-kings-teal">K</span>
+              <span className="text-kings-gold">1</span>
+              <span className="text-kings-teal">nGs</span>
             </span>
             <span className="hidden md:inline text-sm opacity-80 font-light tracking-wide">Data Mining & Artificial Intelligence Agents</span>
           </a>

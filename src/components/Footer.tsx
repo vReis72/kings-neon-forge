@@ -11,9 +11,9 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center">
               <span className="text-2xl font-bold font-spaceGrotesk">
-                <span className="text-kings-teal">K1</span>
-                <span className="text-kings-gold">n</span>
-                <span className="text-kings-teal">Gs</span>
+                <span className="text-kings-teal">K</span>
+                <span className="text-kings-gold">1</span>
+                <span className="text-kings-teal">nGs</span>
               </span>
             </div>
             <p className="text-sm text-gray-400">
