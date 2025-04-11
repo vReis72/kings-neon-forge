@@ -29,7 +29,7 @@ const Products = () => {
     {
       id: 4,
       title: "Eco Flow",
-      description: "Soluções digitais para empresas ambientais",
+      description: "Voltado a empresas do ramo ambiental, possui controle de resíduos, descarte, acompanhamento contratual e financeiro",
       icon: <Leaf size={28} className="text-kings-teal" />,
       gradient: "from-[#00BFA6]/20 to-transparent",
     },
