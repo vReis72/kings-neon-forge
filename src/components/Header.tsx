@@ -36,7 +36,7 @@ const Header = () => {
               <span className="text-kings-gold">n</span>
               <span className="text-kings-teal">Gs</span>
             </span>
-            <span className="hidden md:inline text-sm opacity-80 font-light tracking-wide">Data Mining & Artificial Intelligence</span>
+            <span className="hidden md:inline text-sm opacity-80 font-light tracking-wide">Data Mining & Artificial Intelligence Agents</span>
           </a>
         </div>
 
