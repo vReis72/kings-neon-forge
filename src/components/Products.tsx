@@ -56,17 +56,17 @@ const Products = () => {
               <div className={`h-2 bg-gradient-to-r ${product.gradient}`}></div>
               <div className="p-8">
                 <div className="flex items-start gap-4">
-                  <div className="p-3 bg-kings-teal/10 rounded-lg flex items-center justify-center" style={{ minWidth: '48px', minHeight: '48px' }}>
-                    {product.image ? (
-                      <img 
-                        src={product.image} 
-                        alt={product.title} 
-                        className="w-12 h-12 object-contain"
-                      />
-                    ) : (
-                      product.icon
-                    )}
-                  </div>
+                  {product.image ? (
+                    <img 
+                      src={product.image} 
+                      alt={product.title} 
+                      className="w-20 h-auto object-contain"
+                    />
+                  ) : (
+                    <div className="p-3 bg-kings-teal/10 rounded-lg flex items-center justify-center" style={{ minWidth: '48px', minHeight: '48px' }}>
+                      {product.icon}
+                    </div>
+                  )}
                   <div>
                     <h3 className="text-xl font-bold mb-2">{product.title}</h3>
                     <p className="text-gray-400 mb-4">{product.description}</p>
