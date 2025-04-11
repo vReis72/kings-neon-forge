@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ChevronRight, Apple, Scale, Leaf } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -23,7 +22,7 @@ const Products = () => {
       id: 3,
       title: "Legal Oracle",
       description: "Seu assistente jurídico pessoal; com buscador de jurisprudências, você simplesmente conversa e ele te responde!",
-      image: "/lovable-uploads/5b34afb0-7da9-4309-b8f7-f0cc1e01fba8.png",
+      image: "/lovable-uploads/4ef0db56-1abb-4294-896c-9e4b044a5738.png",
       gradient: "from-[#00BFA6]/20 to-transparent",
     },
     {
