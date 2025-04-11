@@ -28,7 +28,7 @@ const About = () => {
             </div>
             <h3 className="text-xl font-bold mb-3">Tecnologia de IA</h3>
             <p className="text-gray-400">
-              Desenvolvemos soluções baseadas nas mais recentes soluções de inteligência artificial que existem no mercado, garantindo soluções únicas e eficientes.
+              Desenvolvemos soluções baseadas nas mais recentes tecnologias de inteligência artificial que existem no mercado, garantindo soluções únicas e eficientes.
             </p>
           </div>
           
