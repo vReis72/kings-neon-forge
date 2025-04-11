@@ -17,7 +17,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-sm text-gray-400">
-              Data Mining & Artificial Intelligence
+              Data Mining & Artificial Intelligence Agents
             </p>
             <div className="flex space-x-4 pt-2">
               <a href="#" className="text-gray-400 hover:text-kings-teal transition-colors">
