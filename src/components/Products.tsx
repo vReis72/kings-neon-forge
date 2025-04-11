@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ChevronRight, Apple, Scale, Leaf } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -30,7 +29,7 @@ const Products = () => {
       id: 4,
       title: "Eco Flow AI",
       description: "Voltado a empresas do ramo ambiental, possui controle de resíduos, descarte, acompanhamento contratual e financeiro",
-      icon: <Leaf size={28} className="text-kings-teal" />,
+      image: "/lovable-uploads/55be0252-ebaa-4a36-aac1-a0647de86875.png",
       gradient: "from-[#00BFA6]/20 to-transparent",
     },
   ];
