@@ -7,7 +7,7 @@ const Products = () => {
   const products = [
     {
       id: 1,
-      title: "K1nGs Investimentos",
+      title: "SmartCrypto AI",
       description: "Rastreamento inteligente de portfólios cripto. Cadastre seus ativos cripto, acompanhe sua evolução e use nosso Robô de Investimento!",
       icon: <BarChart3 size={28} className="text-kings-teal" />,
       gradient: "from-[#00BFA6]/20 to-transparent",
