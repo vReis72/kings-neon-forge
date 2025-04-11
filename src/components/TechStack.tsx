@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Github, Bot, Database, Code, Blocks, BarChart, Wind } from 'lucide-react';
+import { Github, Bot, Database, Code, Blocks, BarChart, Wind, Puzzle, Rocket } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const TechStack: React.FC = () => {
@@ -21,6 +21,8 @@ const TechStack: React.FC = () => {
           <TechItem name="ChatGPT" icon={<Bot className="w-8 h-8 text-[#74AA9C]" />} />
           <TechItem name="React" icon={<BarChart className="w-8 h-8 text-[#61DAFB]" />} />
           <TechItem name="Tailwind" icon={<Wind className="w-8 h-8 text-[#38B2AC]" />} />
+          <TechItem name="shadcn-ui" icon={<Puzzle className="w-8 h-8 text-white" />} />
+          <TechItem name="Vite" icon={<Rocket className="w-8 h-8 text-[#646CFF]" />} />
         </div>
       </div>
     </section>
