@@ -12,7 +12,7 @@ const TechStack: React.FC = () => {
         </h3>
       </div>
       
-      <div className="tech-scroll relative w-full overflow-hidden">
+      <div className="relative w-full overflow-hidden">
         <div className="flex animate-scroll-infinite">
           {/* First set of icons */}
           <TechItem name="Lovable" icon={<Blocks className="w-8 h-8 text-kings-teal" />} />
