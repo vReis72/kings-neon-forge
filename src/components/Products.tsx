@@ -8,7 +8,7 @@ const Products = () => {
     {
       id: 1,
       title: "K1nGs Investimentos",
-      description: "Rastreamento inteligente de portfólios cripto",
+      description: "Rastreamento inteligente de portfólios cripto. Cadastre seus ativos cripto, analise e acompanhe sua evolução e invista automaticamente com um Robô de Investimento!",
       icon: <BarChart3 size={28} className="text-kings-teal" />,
       gradient: "from-[#00BFA6]/20 to-transparent",
     },
@@ -22,7 +22,7 @@ const Products = () => {
     {
       id: 3,
       title: "Legal Oracle",
-      description: "Buscador de jurisprudência com IA",
+      description: "Seu assistente jurídico pessoal; com buscador de buscador de jurisprudências, você simplesmente conversa e ele te responde!",
       icon: <Scale size={28} className="text-kings-teal" />,
       gradient: "from-[#00BFA6]/20 to-transparent",
     },
