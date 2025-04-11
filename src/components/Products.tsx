@@ -15,7 +15,7 @@ const Products = () => {
     {
       id: 2,
       title: "NutriVita Plan",
-      description: "Planejamento alimentar automatizado para nutricionistas",
+      description: "Acompanhamento e planejamento alimentar para nutricionistas; controla agenda de consultas, dados físicos, evolução, avaliações e gerador de dietas",
       icon: <Apple size={28} className="text-kings-teal" />,
       gradient: "from-[#00BFA6]/20 to-transparent",
     },
