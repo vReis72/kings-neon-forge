@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Github, Bot, Database, Code, Blocks, BarChart } from 'lucide-react';
+import { Github, Bot, Database, Code, Blocks, BarChart, Wind } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const TechStack: React.FC = () => {
@@ -12,23 +12,15 @@ const TechStack: React.FC = () => {
         </h3>
       </div>
       
-      <div className="relative w-full overflow-hidden">
-        <div className="flex animate-scroll-infinite">
-          {/* First set of icons */}
+      <div className="w-full">
+        <div className="flex flex-wrap justify-center">
           <TechItem name="Lovable" icon={<Blocks className="w-8 h-8 text-kings-teal" />} />
           <TechItem name="Supabase" icon={<Database className="w-8 h-8 text-[#3ECF8E]" />} />
           <TechItem name="Python" icon={<Code className="w-8 h-8 text-[#3776AB]" />} />
           <TechItem name="GitHub" icon={<Github className="w-8 h-8 text-white" />} />
           <TechItem name="ChatGPT" icon={<Bot className="w-8 h-8 text-[#74AA9C]" />} />
           <TechItem name="React" icon={<BarChart className="w-8 h-8 text-[#61DAFB]" />} />
-          
-          {/* Duplicated set for seamless infinite scrolling */}
-          <TechItem name="Lovable" icon={<Blocks className="w-8 h-8 text-kings-teal" />} />
-          <TechItem name="Supabase" icon={<Database className="w-8 h-8 text-[#3ECF8E]" />} />
-          <TechItem name="Python" icon={<Code className="w-8 h-8 text-[#3776AB]" />} />
-          <TechItem name="GitHub" icon={<Github className="w-8 h-8 text-white" />} />
-          <TechItem name="ChatGPT" icon={<Bot className="w-8 h-8 text-[#74AA9C]" />} />
-          <TechItem name="React" icon={<BarChart className="w-8 h-8 text-[#61DAFB]" />} />
+          <TechItem name="Tailwind" icon={<Wind className="w-8 h-8 text-[#38B2AC]" />} />
         </div>
       </div>
     </section>
@@ -43,7 +35,7 @@ interface TechItemProps {
 const TechItem: React.FC<TechItemProps> = ({ name, icon }) => {
   return (
     <div className={cn(
-      "flex flex-col items-center justify-center px-16 py-6",
+      "flex flex-col items-center justify-center px-8 py-6 sm:px-12",
       "transition-transform hover:scale-110"
     )}>
       <div className="glass-card flex items-center justify-center w-20 h-20 rounded-xl mb-3">
