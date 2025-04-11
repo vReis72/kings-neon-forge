@@ -83,14 +83,7 @@ const Products = () => {
           ))}
         </div>
         
-        <div className="text-center mt-12">
-          <Button 
-            variant="outline" 
-            className="border-kings-teal text-kings-teal hover:bg-kings-teal/10"
-          >
-            Ver todos os produtos
-          </Button>
-        </div>
+        {/* Removed the "Ver todos os produtos" button as requested */}
       </div>
     </section>
   );
