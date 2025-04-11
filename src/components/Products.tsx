@@ -22,7 +22,7 @@ const Products = () => {
     {
       id: 3,
       title: "Legal Oracle",
-      description: "Seu assistente jurídico pessoal; com buscador de buscador de jurisprudências, você simplesmente conversa e ele te responde!",
+      description: "Seu assistente jurídico pessoal; com buscador de jurisprudências, você simplesmente conversa e ele te responde!",
       icon: <Scale size={28} className="text-kings-teal" />,
       gradient: "from-[#00BFA6]/20 to-transparent",
     },
