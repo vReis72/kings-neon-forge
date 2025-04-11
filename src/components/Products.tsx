@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ChevronRight, BarChart3, Apple, Scale, Leaf } from 'lucide-react';
+import { ChevronRight, Apple, Scale, Leaf } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Products = () => {
@@ -9,7 +9,7 @@ const Products = () => {
       id: 1,
       title: "SmartCrypto AI",
       description: "Rastreamento inteligente de portfólios cripto. Cadastre seus ativos cripto, acompanhe sua evolução e use nosso Robô de Investimento!",
-      icon: <BarChart3 size={28} className="text-kings-teal" />,
+      image: "/lovable-uploads/14c93ba1-028b-4770-87b9-3d989faa595a.png",
       gradient: "from-[#00BFA6]/20 to-transparent",
     },
     {
@@ -56,8 +56,16 @@ const Products = () => {
               <div className={`h-2 bg-gradient-to-r ${product.gradient}`}></div>
               <div className="p-8">
                 <div className="flex items-start gap-4">
-                  <div className="p-3 bg-kings-teal/10 rounded-lg">
-                    {product.icon}
+                  <div className="p-3 bg-kings-teal/10 rounded-lg flex items-center justify-center" style={{ minWidth: '48px', minHeight: '48px' }}>
+                    {product.image ? (
+                      <img 
+                        src={product.image} 
+                        alt={product.title} 
+                        className="w-12 h-12 object-contain"
+                      />
+                    ) : (
+                      product.icon
+                    )}
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-2">{product.title}</h3>
