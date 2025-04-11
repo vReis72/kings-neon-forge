@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { ChevronRight, Apple, Scale, Leaf } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -15,7 +16,7 @@ const Products = () => {
       id: 2,
       title: "NutriVita Plan AI",
       description: "Acompanhamento e planejamento alimentar para nutricionistas; controla agenda de consultas, dados físicos, evolução, avaliações e gerador de dietas",
-      icon: <Apple size={28} className="text-kings-teal" />,
+      image: "/lovable-uploads/c37f7b4f-6e66-44c5-8dda-cf94905f98c2.png",
       gradient: "from-[#00BFA6]/20 to-transparent",
     },
     {
