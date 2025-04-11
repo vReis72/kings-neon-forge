@@ -63,11 +63,11 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-gray-400">
                 <Mail size={16} className="text-kings-teal" />
-                <span>contato@kings.com.br</span>
+                <span>contato@k1ngs.com.br</span>
               </li>
               <li className="flex items-center gap-2 text-gray-400">
                 <Phone size={16} className="text-kings-teal" />
-                <span>(00) 0000-0000</span>
+                <span>(94) 98100-4455</span>
               </li>
               <li className="flex items-start gap-2 text-gray-400">
                 <MapPin size={16} className="text-kings-teal mt-1" />
@@ -78,7 +78,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-kings-teal/20 mt-12 pt-8 text-center text-sm text-gray-500">
-          <p>© {new Date().getFullYear()} K1nGs Data Mining & Artificial Intelligence. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} K1nGs Data Mining & Artificial Intelligence Agents. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
