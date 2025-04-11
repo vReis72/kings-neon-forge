@@ -26,9 +26,9 @@ const About = () => {
             <div className="w-16 h-16 rounded-full bg-kings-teal/20 flex items-center justify-center mb-6 group-hover:bg-kings-teal/30 transition-colors">
               <Brain size={32} className="text-kings-teal" />
             </div>
-            <h3 className="text-xl font-bold mb-3">Tecnologia própria de IA</h3>
+            <h3 className="text-xl font-bold mb-3">Tecnologia de IA</h3>
             <p className="text-gray-400">
-              Desenvolvemos algoritmos proprietários de inteligência artificial que garantem soluções únicas e eficientes.
+              Desenvolvemos soluções baseadas nas mais recentes soluções de inteligência artificial que existem no mercado, garantindo soluções únicas e eficientes.
             </p>
           </div>
           
@@ -39,7 +39,7 @@ const About = () => {
             </div>
             <h3 className="text-xl font-bold mb-3">Produtos multiplataforma</h3>
             <p className="text-gray-400">
-              Nossas soluções funcionam em qualquer dispositivo, garantindo uma experiência consistente em todos os ambientes.
+              Nossas soluções funcionam em qualquer dispositivo e se adaptam a qualquer formato de tela, garantindo uma experiência única e consistente em todos os ambientes.
             </p>
           </div>
           
