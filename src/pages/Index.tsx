@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
+import TechStack from '@/components/TechStack';
 import Products from '@/components/Products';
 import CTA from '@/components/CTA';
 import Footer from '@/components/Footer';
@@ -44,6 +45,7 @@ const Index = () => {
       <Header />
       <Hero />
       <About />
+      <TechStack />
       <Products />
       <CTA />
       <Footer />

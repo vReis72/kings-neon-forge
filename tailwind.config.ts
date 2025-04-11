@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -68,7 +67,6 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// K1nGs custom colors
 				kings: {
 					teal: '#00BFA6',
 					gold: '#FFD700',
@@ -125,6 +123,10 @@ export default {
 					'50%': {
 						boxShadow: '0 0 20px 5px rgba(0, 191, 166, 0.6)'
 					}
+				},
+				'scroll': {
+					'0%': { transform: 'translateX(0)' },
+					'100%': { transform: 'translateX(-50%)' }
 				}
 			},
 			animation: {
@@ -132,7 +134,8 @@ export default {
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'fade-in': 'fade-in 0.6s ease-out',
 				'fade-in-right': 'fade-in-right 0.6s ease-out',
-				'glow': 'glow 3s infinite'
+				'glow': 'glow 3s infinite',
+				'scroll-infinite': 'scroll 25s linear infinite'
 			}
 		}
 	},
