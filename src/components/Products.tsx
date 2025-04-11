@@ -60,7 +60,7 @@ const Products = () => {
                     <img 
                       src={product.image} 
                       alt={product.title} 
-                      className="w-20 h-auto object-contain"
+                      className="w-32 h-auto object-contain" 
                     />
                   ) : (
                     <div className="p-3 bg-kings-teal/10 rounded-lg flex items-center justify-center" style={{ minWidth: '48px', minHeight: '48px' }}>
