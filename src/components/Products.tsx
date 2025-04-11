@@ -1,5 +1,6 @@
+
 import React from 'react';
-import { ChevronRight, Apple, Scale, Leaf } from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Products = () => {
@@ -63,7 +64,7 @@ const Products = () => {
                     />
                   ) : (
                     <div className="p-3 bg-kings-teal/10 rounded-lg flex items-center justify-center" style={{ minWidth: '48px', minHeight: '48px' }}>
-                      {product.icon}
+                      {/* Removed reference to product.icon as it no longer exists */}
                     </div>
                   )}
                   <div>
